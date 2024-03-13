@@ -1,0 +1,21 @@
+:root {
+    --black: #000;
+    --transparent: transparent;
+    --grey: #707070;
+    --white:#fff;
+    --blue: #1f5eaf;
+    --orange:#ff5202;
+    --green: #d3fad3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    padding: 30px;
+    max-width: 1200px;
+}

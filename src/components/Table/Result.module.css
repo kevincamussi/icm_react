@@ -1,0 +1,44 @@
+.table {
+    width: 80%;
+    text-align: center;
+    font-size: 14px;
+    color: var(--grey);
+    font-weight: 500;
+}
+
+.table td, table th {
+    border-bottom: 1px solid var(--grey);
+    padding: 8px;
+}
+
+.table th {
+    color: var(--blue);
+}
+
+.result {
+    background-color: var(--orange);
+    padding:18px;
+    width: 200px;
+    text-align: center;
+    border-radius: 32px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.resultColor {
+    background-color: var(--green);
+}
+
+.normalColor {
+    background-color: #fff;
+}
+
+@media screen and (max-width:360px){
+    .table td, table th {
+        padding: 2px;
+    }
+
+    .result {
+        margin: 0 auto;
+    }
+}
